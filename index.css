@@ -1,0 +1,309 @@
+/*universal rules */
+
+* {
+    box-sizing: border-box;
+    scroll-padding-top: 4.200rem;
+}
+
+html {
+    font-size: 22px;
+}
+
+/* basic */
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+
+/* first part*/
+
+.headercontainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    color: rgba(255, 166, 0, 0.8);
+}
+
+.headboxleftside {
+    display: flex;
+    justify-content: center;
+}
+
+.headboxrightside {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 1000px;
+    padding: 5px;
+}
+
+/* second part */
+
+
+#landingcontainer .composed  {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('./charles-forerunner-3fPXt37X6UQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#landingcontainer .composed h2, p {
+  color: rgba(255, 166, 0, 0.8);
+}
+/* third part */
+
+
+.title {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidetitle {
+    width: 100%;
+    padding: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#divecontainer .content {
+    width: 100%;
+    height: auto;
+    padding: 3rem 1.5rem;
+    background-color: red;
+    background-image: repeating-linear-gradient(45deg, rgba(140, 92, 3, 0.25) 0 1rem, transparent 1rem 2rem), repeating-linear-gradient(135deg, rgba(140, 92, 3, 0.25) 0 1rem, transparent 1rem 2rem);
+    background-attachment: fixed;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+#divecontainer .content .exhibit {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(215deg, rgba(255, 166, 0, 0.8), rgba(255, 166, 0, 0) 70%), linear-gradient(125deg, rgba(128, 0, 128, 0.8), rgba(128, 0, 128, 0) 70%), linear-gradient(335deg, rgba(0, 183, 255, 0.8), rgba(0, 183, 255, 0) 70%);
+    opacity: 1;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+#divecontainer .content .exhibit .pic {
+    width: 18.75rem;
+}
+
+#divecontainer .content .exhibit .label h4 {
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+#divecontainer h2 {
+  color:rgba(255, 166, 0, 0.8);
+}
+
+#divecontainer p {
+  color: rgba(255, 166, 0, 0.8);
+}
+
+#divecontainer pic {
+  width: 5rem;
+  height: auto;
+}
+
+/* fourth part */
+
+.image-container {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#team .image-container {
+    background-image: url('./images/team.jpg');
+}
+
+#team .image-container .content {
+    padding: 3rem 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#team .image-container .content .team-member {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: default;
+    align-items: default;
+    width: 12.75rem;
+}
+
+#team .image-container .content .team-member .pic-member {
+    display: flex;
+    flex-direction: default;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    background-image: linear-gradient(215deg, rgba(255, 166, 0, 0.8), rgba(255, 166, 0, 0) 70%), linear-gradient(125deg, rgba(128, 0, 128, 0.8), rgba(128, 0, 128, 0) 70%), linear-gradient(335deg, rgba(0, 183, 255, 0.8), rgba(0, 183, 255, 0) 70%);
+    margin-bottom: 1rem;
+}
+
+#team .image-container .content .team-member .pic-member img {
+    width: 97.33%;
+    height: 97.33%;
+}
+
+#team .image-container .content .team-member .label h3 {
+    font-family: serif;
+    line-height: 2;
+}
+
+#team .image-container .content .team-member .label p {
+    font-family: sans-serif;
+    line-height: 1;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+
+#team h2 {
+  color:rgba(255, 166, 0, 0.8);
+}
+
+#team h3 {
+  color:rgba(255, 166, 0, 0.8);
+}
+
+#team p {
+  color: rgba(255, 166, 0, 0.8);
+}
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+footer .background {
+    background-color: red;
+    padding: 3rem 1.5rem;
+}
+
+footer .background h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+footer .background p {
+    font-family: serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-shadow: 0.125rem 0.125rem 0.5rem gray;
+  }
+
+  footer .background h5 {
+    font-family: sans-serif;
+    font-size: 0.625rem;
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-shadow: 0.125rem 0.125rem 0.5rem gray;
+  }
+
+#info h2 {
+  color:rgba(255, 166, 0, 0.8);
+}
+
+#info h5 {
+  color: rgba(255, 166, 0, 0.8);
+}
+
+#info p {
+  color: rgba(255, 166, 0, 0.8);
+}
+
+
+  /*Media queries*/
+@media only screen and (min-width: 841px) and (max-width: 960px) {
+    html {
+      font-size: 14px;
+    }
+  
+    * {
+      scroll-padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 721px) and (max-width: 840px) {
+    html {
+      font-size: 12px;
+    }
+  
+    * {
+      scroll-padding-top: 3.5rem;
+    }
+  }
+  @media only screen and (min-width: 661px) and (max-width: 720px) {
+    html {
+      font-size: 11px;
+    }
+  
+    * {
+      scroll-padding-top: 3rem;
+    }
+  }
+  @media only screen and (min-width: 541px) and (max-width: 660px) {
+    html {
+      font-size: 10px;
+    }
+  
+    * {
+      scroll-padding-top: 2.5rem;
+    }
+  }
+  @media only screen and (min-width: 491px) and (max-width: 540px) {
+    html {
+      font-size: 9px;
+    }
+  
+    * {
+      scroll-padding-top: 2rem;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+    html {
+      font-size: 8px;
+    }
+  
+    * {
+      scroll-padding-top: 0;
+    }
+  }
